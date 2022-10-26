@@ -1,34 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concesionaria</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="assets/modelo.css">
+<title>Ordenador de peliculas</title>
+
 </head>
 <body>
-    <script src="assets/style.js"></script>
-    <header class="encabezado">
-        <h1>Concesionaria</h1>
-        <img src="" alt="logo">
-        <ul class="lista">
-            <li>contacto</li>
-            <ul class="sub_lista">
-                <li>modelos</li>
-                <li>localizaciones</li>
-            </ul>
-        </ul>
-    </header>
-    <!--voy a crear una pagina de una cadena de concesionaria de autos, la cual va a tener un stock de la marca y cada marca sus modelos.
-    -->
-    <article class="cuerpo"></article>
-    <!--En el aside van a ir pasando fotos de concesionaria-->
-    <aside class="extra_cuerpo"></aside>
-    <footer class="pie">
-        <img src="#" alt="logo">
-        <a href="#">instagram</a>
-        <a href="#">Twitter</a>
-        <a href="#">Facebook</a>
-    </footer>
+
+	
+	<div class="">
+
+		<h1 class="titulo">Ordenador de peliculas</h1>
+
+		<h3 class="subTitulo">Añade peliculas</h3>
+
+		<hr>
+
+		<form action="" id="formPeliculas">
+
+			<div class="">
+				<div class="">
+					<label class="lab" for="addPelicula">Ingresa el nombre de la pelicula</label>
+					<input type="text" class="text" id="addPelicula">
+				</div>
+
+				<div class="btn">
+					<button type="submit" class="btn">Guardar</button>
+				</div>
+			</div>
+
+		</form>
+		
+		<h4 class="">Mostrar peliculas</h4>
+		
+  			<ul id="listaPeliculas">
+  				
+  			</ul>
+
+  		<h3 class="">Remueve peliculas</h3>
+
+		<hr>
+
+  		<form action="" id="formBorrarPeliculas" class="">
+
+			<div class="">
+				<div class="">
+					<label class="lab" for="removePelicula">Borrar-Pelicula</label>
+					<input type="text" class="text" id="removePelicula">
+				</div>
+
+				<div class="col-auto my-1">
+					<button type="submit" class="btn">Borrar</button>
+				</div>
+			</div>
+
+		</form>
+		
+	</div>
+
+
+
+
+
+
+<script src="assets/style.js"></script>
 </body>
 </html>
